@@ -122,6 +122,7 @@ venv\Scripts\activate
 ### Step 3: Install dependencies
 
 ```
+pip install pycryptodome
 pip install -r requirements.txt
 ```
 
