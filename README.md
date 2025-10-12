@@ -164,8 +164,8 @@ sudo apt install python3
 
 ### Step 2: Clone the repository
 ```
-git clone https://github.com/YourUsername/forensight.git
-cd forensight
+git clone https://github.com/spider863644/Forensight.git
+cd Forensight
 ```
 ### Step 3: Set up a Python environment
 ```
