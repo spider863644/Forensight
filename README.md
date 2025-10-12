@@ -194,7 +194,7 @@ Now simply run
 ```
 pip install face_recognition
 ```
-#Usage:
+## Usage:
 ```
 python3 main.py --help       #Linux
 
