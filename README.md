@@ -147,3 +147,49 @@ pip install path\to\dlib-19.24.0-cp311-cp311-win_amd64.whl
 ```
 pip install face_recognition
 ```
+
+## Installation for Linux 
+
+### Step 1: Install Git and Python3
+```
+sudo apt update && sudo apt upgrade
+```
+```
+sudo apt install git
+```
+```
+sudo apt install python3
+```
+
+### Step 2: Clone the repository
+```
+git clone https://github.com/YourUsername/forensight.git
+cd forensight
+```
+### Step 3: Set up a Python environment
+```
+python -m venv venv
+source venv/bin/activate 
+```
+
+### Step 4: Install dependencies
+```
+sudo apt update
+```
+```
+sudo apt install tesseract-ocr -y
+```
+```
+pip install -r requirements.txt
+```
+
+### Step 5: Install Face_recognition
+```
+sudo apt install -y cmake g++ make python3-dev
+sudo apt install -y libboost-all-dev
+```
+Now simply run 
+
+```
+pip install face_recognition
+```
