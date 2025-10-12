@@ -182,6 +182,7 @@ sudo apt update
 sudo apt install tesseract-ocr -y
 ```
 ```
+pip install pycryptodome
 pip install -r requirements.txt
 ```
 
