@@ -103,15 +103,15 @@ https://www.python.org/downloads/windows/
 
 4. Wait for the installation to complete and click Close.
 
-## Installation
+## Cloning repository
 
 ### Step 1: Open Git Bash and clone the repository
 
 Press Win, type Git Bash, and open it.
 
 ```
-git clone https://github.com/YourUsername/forensight.git
-cd forensight
+git clone https://github.com/spider863644/Forensight.git
+cd Forensight
 ```
 
 ### Step 2: Set up a Python environment
@@ -119,4 +119,31 @@ cd forensight
 python -m venv venv
 venv\Scripts\activate          
 ```
-Step 3: Install dependencies
+### Step 3: Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+> Important for Windows users: Installing face_recognition on Windows can be tricky because it depends on dlib. Follow these steps carefully:
+
+> 1. Install Visual Studio Build Tools 2019 or 2022 (ensure "Desktop development with C++" workload is selected).
+
+
+> 2. Download the precompiled wheel for dlib that matches your Python version from https://www.lfd.uci.edu/~gohlke/pythonlibs/#dlib.
+
+
+> 3. Install the wheel manually, e.g.:
+
+
+>
+```
+pip install path\to\dlib-19.24.0-cp311-cp311-win_amd64.whl
+```
+
+> 4. Finally, install face_recognition:
+
+>
+```
+pip install face_recognition
+```
