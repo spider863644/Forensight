@@ -1,0 +1,35 @@
+# Core image handling
+Pillow
+opencv-python
+exifread
+piexif
+pytesseract
+imagehash
+face_recognition
+pillow-avif-plugin
+
+# Metadata & reverse search utilities
+requests
+beautifulsoup4
+google-search-results
+
+# Optional AI / vision (for object and scene recognition)
+torch
+torchvision
+transformers
+timm
+ultralytics
+
+# CLI and progress utilities
+tqdm
+argparse
+rich
+
+# Data handling
+numpy
+pandas
+
+# Mapping / geolocation support (optional)
+geopy
+folium
+cryptography
