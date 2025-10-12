@@ -57,3 +57,66 @@ Forensight is an advanced image OSINT toolkit for investigative and analytical w
 ### Workflow GIF
 ![Forensight Workflow](assets/workflow.gif)  
 *Demonstrates a full workflow: metadata extraction → OCR → face detection → mapping.*
+
+
+## Installation for windows
+### Step 1: Open PowerShell as Administrator
+
+Press Win + X → Windows Terminal (Admin) or search for PowerShell, right-click → Run as administrator.
+
+### Step 2: Install Git via winget
+```
+winget install --id Git.Git -e --source winget
+```
+--id Git.Git → Specifies the official Git package
+-e → Exact match
+
+--source winget → Ensures it uses the official repository
+
+### Step 3: Verify Installation
+
+```
+git --version
+```
+
+You should see something like:
+
+> git version 2.41.0.windows.1
+
+## Download Python (3.11 is recommended) 
+
+### Step 1: Go to the official Python website: 
+https://www.python.org/downloads/windows/
+
+ Click Download Python 3.11
+
+ ### Step 2: Run the Installer
+
+1. Open the downloaded .exe file.
+
+
+2. Important: Check “Add Python 3.11 to PATH” at the bottom.
+
+
+3. Click Install Now.
+
+
+4. Wait for the installation to complete and click Close.
+
+## Installation
+
+### Step 1: Open Git Bash and clone the repository
+
+Press Win, type Git Bash, and open it.
+
+```
+git clone https://github.com/YourUsername/forensight.git
+cd forensight
+```
+
+### Step 2: Set up a Python environment
+```
+python -m venv venv
+venv\Scripts\activate          
+```
+Step 3: Install dependencies
