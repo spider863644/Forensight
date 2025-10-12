@@ -206,3 +206,13 @@ python main.py --help    #Winndows
 Forensight is for personal and educational purposes.
 Please do not redistribute, modify, or use it commercially without permission.
 Credit must always be given to the original author.
+
+## Author & Credits
+
+Forensight was conceptualized, developed, and maintained by Spider Anongreyhat.
+
+All core code, workflows, and OSINT techniques implemented in this project are the work of the author.
+
+Special thanks to the developers of the libraries used: Pillow, OpenCV, face_recognition, YOLOv8, BLIP, pytesseract, and others that made this toolkit possible.
+
+> “Built for investigative and educational OSINT. Always give credit where it’s due.” 
