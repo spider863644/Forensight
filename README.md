@@ -148,6 +148,7 @@ pip install path\to\dlib-19.24.0-cp311-cp311-win_amd64.whl
 pip install face_recognition
 ```
 
+
 ## Installation for Linux 
 
 ### Step 1: Install Git and Python3
