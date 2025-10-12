@@ -193,3 +193,16 @@ Now simply run
 ```
 pip install face_recognition
 ```
+#Usage:
+```
+python3 main.py --help       #Linux
+
+python main.py --help    #Winndows
+
+```
+
+## Contributing
+
+Forensight is for personal and educational purposes.
+Please do not redistribute, modify, or use it commercially without permission.
+Credit must always be given to the original author.
